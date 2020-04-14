@@ -1,0 +1,19 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "imdb web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ankurrai1/web-scraper-imdb.git"
+  },
+  "author": "ankurrai1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankurrai1/web-scraper-imdb/issues"
+  },
+  "homepage": "https://github.com/ankurrai1/web-scraper-imdb#readme"
+}
