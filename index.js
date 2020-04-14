@@ -1,10 +1,10 @@
 const request = require("request-promise")
 const cherio = require("cheerio")
 const fs = require("fs")
-const json2csv = require("json2csv").Parser()
+const json2csv = require("json2csv").Parser;
 
 
-const movie = "https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3"
+const movie = "https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3";
 
 (async ()=>{
     let imdb_data = []
