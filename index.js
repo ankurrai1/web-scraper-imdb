@@ -28,7 +28,7 @@ const movies = ["https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3",
         let $ = cherio.load(response)
         
         // following are selectors to get data form page link
-        
+        // in the following code > denotes the child element and trim is used to remove extra leading spaces
         let title = $('div[class="title_wrapper"] > ').text().trim()
         let rating = $('div[class="ratingValue"] > strong > span').text()
         let summary = $('div[class="summary_text"] > ').text().trim()
