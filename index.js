@@ -26,6 +26,9 @@ const movies = ["https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3",
             gzip : true
         })
         let $ = cherio.load(response)
+        
+        // following are selectors to get data form page link
+        
         let title = $('div[class="title_wrapper"] > ').text().trim()
         let rating = $('div[class="ratingValue"] > strong > span').text()
         let summary = $('div[class="summary_text"] > ').text().trim()
