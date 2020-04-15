@@ -41,6 +41,8 @@ const movies = ["https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3",
     const j2cv = new json2csv()
     const csv = j2cv.parse(imdb_data)
 
+    // write to file name it will create file if it does not exist
+    
     fs.writeFileSync('./imdb.csv',csv,'utf-8')
 
 }
