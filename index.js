@@ -4,6 +4,7 @@ const fs = require("fs")
 const json2csv = require("json2csv").Parser;
 
 // these are the movies link to find out data about 
+// these links are added only for educational purpose there is no industrial use of this scraper with this link
 const movies = ["https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3",
 "https://www.imdb.com/title/tt0111161/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=1HNTW8EF4JKV9JVPBBCV&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_1",
 "https://www.imdb.com/title/tt0068646/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=1HNTW8EF4JKV9JVPBBCV&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_2",
