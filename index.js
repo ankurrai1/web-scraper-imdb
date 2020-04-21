@@ -52,3 +52,4 @@ const movies = ["https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_3",
 
 }
 )()
+// the above fuction is like lembda function it is called as soon as it is defined
