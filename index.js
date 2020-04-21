@@ -1,7 +1,7 @@
 const request = require("request-promise")
 const cherio = require("cheerio")
 const fs = require("fs")
-const json2csv = require("json2csv").Parser;
+const json2csv = require("json2csv").Parser
 
 // these are the movies link to find out data about 
 // these links are added only for educational purpose there is no industrial use of this scraper with this link
